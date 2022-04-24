@@ -6,13 +6,13 @@ body * {
 }
 
 .navbar-brand img {
-    width: 70px;
+    width: 80px;
     margin-left: 119px;
 }
 
 .navbar {
     background-color: #E83E8C;
-   
+
 }
 
 .collapse {
@@ -25,6 +25,8 @@ body * {
     font-weight: lighter;
 }
 
+
+
 #productos {
     padding: 75px 0 75px 0;
     text-align: center;
@@ -33,16 +35,21 @@ body * {
     font-weight: bold;
 }
 
-.card-title{
+#menu {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-title {
     color: #373A3C;
     font-size: 17px;
     font-weight: bold;
 }
 
-.card-title{
+.card-title {
     color: #373A3C;
     font-size: 16px;
-    
+
 }
 
 .list-group {
@@ -55,5 +62,56 @@ body * {
     font-size: 11px;
 }
 
+.card {
+    margin: 10%;
+}
+
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 
+#mediosPago {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    background-color: #17A2B8;
+    color: #FFFFFF
+}
+
+
+#tarjetas,
+#medios {
+    display: inline-block;
+}
+
+#medios {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+i {
+    padding-left: 60px;
+}
+
+
+@media only screen and (max-width: 880px) {
+    #mediosPago {
+        display: none !important;
+    }
+}
+
+footer {
+    background-color: #E83E8C;
+    height: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 80px;
+}
