@@ -1,0 +1,59 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand img {
+    width: 70px;
+    margin-left: 119px;
+}
+
+.navbar {
+    background-color: #E83E8C;
+   
+}
+
+.collapse {
+    margin-right: 119px;
+}
+
+.nav-item {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#productos {
+    padding: 75px 0 75px 0;
+    text-align: center;
+    color: #707070;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card-title{
+    color: #373A3C;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-title{
+    color: #373A3C;
+    font-size: 16px;
+    
+}
+
+.list-group {
+    color: #373A3C;
+    font-size: 11px;
+}
+
+.card-link {
+    color: #1C7CD5;
+    font-size: 11px;
+}
+
+
+
